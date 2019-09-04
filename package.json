@@ -1,0 +1,22 @@
+{
+  "name": "http-homework",
+  "version": "1.0.0",
+  "engines": {
+    "node": "10.16.0",
+    "npm": "6.9.0"
+  },
+  "description": "Homework example to setup http server",
+  "main": "./Desktop/430Test/Simple-HTTP-Assignment-Start",
+  "scripts": {
+    "start": "node ./Simple-HTTP-Assignment-Start/src/server.js",
+    "pretest": "eslint ./Simple-HTTP-Assignment-Start/src --fix",
+    "test": "echo \"Tests Complete\""
+  },
+  "author": "Ella Mathewson",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "eslint": "^6.2.2",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}
