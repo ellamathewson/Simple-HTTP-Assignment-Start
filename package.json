@@ -6,10 +6,10 @@
     "npm": "6.9.0"
   },
   "description": "Homework example to setup http server",
-  "main": "./Desktop/430Test/Simple-HTTP-Assignment-Start",
+  "main": "./src/server.js",
   "scripts": {
-    "start": "node ./Simple-HTTP-Assignment-Start/src/server.js",
-    "pretest": "eslint ./Simple-HTTP-Assignment-Start/src --fix",
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
     "test": "echo \"Tests Complete\""
   },
   "author": "Ella Mathewson",
